@@ -1,0 +1,156 @@
+//VARIABLES COLORS=====================//
+$white: #FFFFFF;
+$azul: dodgerblue;
+$brown: #1F1F1F;
+$primary-spacing: 1px;
+$secondary-spacing: 2px;
+$verde: #77C8A5;
+$dark-gris: rgba(#373737, .8%);
+$gris: #F7F7F7;
+$crema: #f9faf9;
+$morado: tint(purple,15%);
+
+/* Desktop Viewport start =============== */
+
+@media (min-width: 1024px) {
+    .main_nav {
+        .wrapper {
+            width: 80%;
+            max-width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .logo {
+                margin: 0;
+            }
+
+            .menu {
+                width: 40%;
+                display: flex;
+                li{
+                    flex: auto;
+                    text-align: center;
+                }
+            }
+
+        }
+    }
+
+    .main_header {
+        // height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .wrapper {
+            height: 86vh;
+
+            .title {
+                text-align: center;
+                font-size: 3em;
+                font-weight: lighter;
+                letter-spacing: 5px;
+                margin-bottom: 0;
+
+            }
+            p {
+                font-size: 1.4em;
+                text-align: center;
+            }
+            .button {
+                margin-top: 2em;
+            }
+        }
+
+        .arrow {
+            margin-bottom: 1em;
+        }
+    }
+
+    .primary_content {
+        .wrapper {
+            width: 80%;
+            margin: 0 auto;
+            padding: 4em 0;
+            h3 {
+                font-size: 2em;
+                font-weight: lighter;
+            }
+            .col-wrap {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                .col {
+                    width: 30%;
+                    h4 {
+                        letter-spacing: 3px;
+                        font-size: 1.5em;
+                        font-weight: 300;
+                    }
+                    li {
+                        font-weight: 300;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .secondary_content {
+        .wrapper {
+            width: 80%;
+            margin: 0 auto;
+            padding: 4em 0;
+
+            h3 {
+                font-size: 2em;
+                font-weight: lighter;
+            }
+            h4 {
+                font-size: 2em;
+                font-weight: 200;
+                letter-spacing: 6px;
+            }
+
+            p {
+                text-align: center;
+                line-height: 2;
+                letter-spacing: 1px;
+            }
+
+            .lalo_logo {
+                margin-top: 1em;
+            }
+        }
+    }
+
+/* SLIDER STARTS HERE================== */
+
+    .third_content {
+        .wrapper {
+            width: 80%;
+            margin: 0 auto;
+            padding: 6em 0;
+
+            h4 {
+                font-size: 2em;
+                font-weight: lighter;
+                letter-spacing: 6px;
+            }
+        }
+    }
+
+    .main_footer {
+        .wrapper {
+            width: 50%;
+            margin: 0 auto;
+            padding: 1em 0;
+        }
+        p {
+            margin-left: 3em;
+            margin-bottom: 0;
+        }
+    }
+}

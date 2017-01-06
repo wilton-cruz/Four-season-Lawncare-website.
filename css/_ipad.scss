@@ -1,0 +1,93 @@
+$white: #FFFFFF;
+$azul: dodgerblue;
+$brown: #1F1F1F;
+$primary-spacing: 1px;
+$secondary-spacing: 2px;
+$verde: #77C8A5;
+$dark-gris: rgba(#373737, .8%);
+$gris: #F7F7F7;
+$crema: #f9faf9;
+$morado: tint(purple,15%);
+
+
+@media (max-width: 1024px) and (min-width: 736px) {
+
+    .main_nav {
+        .wrapper {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .logo {
+                margin: 0;
+            }
+
+            .menu {
+                width: 50%;
+                display: flex;
+                li{
+                    flex: auto;
+                    text-align: center;
+                }
+            }
+
+        }
+    }
+
+    .main_header {
+        // height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .wrapper {
+            height: 88vh;
+
+            .title {
+                text-align: center;
+                font-size: 3em;
+                font-weight: lighter;
+                letter-spacing: 5px;
+                margin-bottom: 0;
+            }
+            p {
+                font-size: 1.4em;
+                text-align: center;
+            }
+            .button {
+                margin-top: 2em;
+            }
+        }
+
+    }
+
+    .primary_content {
+        .wrapper {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .secondary_content,
+    .third_content {
+        .wrapper {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+        h4,p {
+            text-align: center;
+        }
+    }
+/* SLIDER STARTS HERE================== */
+    
+
+    .main_footer {
+        p {
+            margin-left: 3em;
+            margin-bottom: 0;
+        }
+    }
+}

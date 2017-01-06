@@ -1,0 +1,90 @@
+$white: #FFFFFF;
+$azul: dodgerblue;
+$brown: #1F1F1F;
+$primary-spacing: 1px;
+$secondary-spacing: 2px;
+$verde: #77C8A5;
+$dark-gris: rgba(#373737, .8%);
+$gris: #F7F7F7;
+$crema: #f9faf9;
+$morado: tint(purple,15%);
+
+@media (max-width: 736px) and (min-width: 320px){
+    .main_header,
+    .wrapper,
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+    }
+    .logo {
+        text-align: center;
+        margin: 0;
+    }
+    /* main header start ================== */
+    .main_header {
+        height: 87vh;
+    }
+    .title {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 200;
+        font-family: helvetica;
+        letter-spacing: $primary-spacing;
+
+    }
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .button {
+        margin-top: 2rem;
+        padding: 0.7rem 1.3rem;
+    }
+    .arrow {
+        display: none;
+    }
+
+    .primary_content {
+        .wrapper {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+
+            .col {
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+        }
+    }
+
+    .secondary_content {
+        .wrapper {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+        h4 {
+            text-align: center;
+        }
+/* SLIDER STARTS HERE================== */
+
+    }
+    .third_content {
+        .wrapper {
+            padding: 2rem 0;
+            h4 {
+                text-align: center;
+            }
+            .mail_button {
+                margin-top: 1rem;
+            }
+        }
+
+
+    }
+}
+//  USE SOME REM UNITS
